@@ -56,6 +56,7 @@
 The file will start the app in command line mode.
 After starting the application the user is prompted to choose a query.
 The application will running loop i.e. user is prompted to select quries one after other.
+
 ![run command line](./images/run_comand_line.jpg)
 
 
@@ -68,10 +69,14 @@ APIs:
 | [GET] /most-used-operator/<user_id> | Get most used operator by a user. Argument: 'user_id' |
 | [GET] /help | Get Help message |
 
+**Note**: I have used [Tabbed Postman](https://chrome.google.com/webstore/detail/tabbed-postman-rest-clien/coohjcphdfgbiolnekdpbcijmhambjff?hl=en-US) to connect with the API from browser tab.
+
 ### [POST] Execute Expression
+
 ![execute_post_request](./images/execute_post_request.jpg)
 
 ### [GET] Get most used operator by a user
+
 ![get_most_used_operator](./images/get_most_used_operator.jpg)
 
 
