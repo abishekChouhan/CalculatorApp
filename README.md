@@ -88,7 +88,7 @@ More functionality can be added to the application like:
     <br>Example 1: Along with the expression, user can input answer to the expression and the query will check is the answer is correct or not and returns the correct answer.
     <br>Example 2: Query will generate mathematica expression and then prompt the user for answer of the expression and check if the answer is correct or not.
 -   To make the data of the application persistance, a database can be implemented. SQL database can be used with `USERS` and `MATH_EXPRESSION` tables and `user_id` as primary key.
--   A front-end application can be developed that will intertact with RESTful APIs of this app. User will be able to perform queries in a interative way using web browser.
+-   Add Security features, so that only users with right credentials can access the application.
+-   A front-end application can be developed using ReactJS or AngularJS that will intertact with RESTful APIs of this app. User will be able to perform queries in a interative way using web browser.
 -   After adding above features the application can be containerised and pushed to a public/private registry so that it can be deployed seamlessly. If to be ran on single host, docker-compose can be used for running our calculator RESTful service, the front-end service and the database containers. For deploying on a cluster Kubernetes is to be used.
-
 
